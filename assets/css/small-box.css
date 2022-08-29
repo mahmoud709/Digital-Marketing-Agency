@@ -1,0 +1,106 @@
+.smallbox{
+    text-align: center;
+    margin: 5% auto;
+    height: 400px;
+    padding:7% 0px;
+}
+.back-2-ground{
+    background-attachment: fixed;
+    background-size: cover;
+    background:linear-gradient(45deg, #ff592cdb, #ff348fbd),url(../images/cta-bg.jpg) ;
+}
+.back-2-ground .smallbox h1,.back-2-ground .smallbox p {
+    margin: 18px 0px;
+}
+/* strat style blog section */
+.blogs-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(380px,1fr));
+    align-items: flex-start;
+}
+.blogs-section .left-blog{
+    width: 520px;
+    margin: 10px 0px;
+}
+.blogs-section .left-blog img{
+    width: 100%;
+}
+
+.right-blog {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.right-blog .item-1,.left-blog .description{
+ background-color: #FBF9F9;
+}
+.left-blog .description{
+    padding: 46px 6px;
+}
+.left-blog .description h2{
+    padding: 6px 0px;
+    line-height: 1.6;
+}
+.right-blog .item-1{
+    margin: 10px 0px;
+}
+.right-blog img{
+    width: 180px;
+    object-fit:cover ;
+}
+.blogs-section .date{
+  color:var(--persian-rose) ;
+  font-size: 18px;
+}
+ .right-blog .info{
+    padding: 0px 20px;
+} 
+ .right-blog .info h2:hover ,.left-blog .description h2:hover{
+    cursor: pointer;
+    color: var(--persian-rose);
+ }
+.right-blog .info h2{
+    font-size: 22px;
+    line-height: 1.8;
+}   
+
+/*########################## contact page #######################*/
+
+.special-title{
+    text-align: center;
+    margin: 40px auto;
+}
+.contact .special-title p{
+    margin: 15px 0px;
+    font-size:20px;
+    letter-spacing: 1.4px;
+} 
+.contact .contact-part .small-box form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+ .contact-part .small-box form input{
+    font-size: 20px;
+    width: 590px;
+    height: 40px;
+    padding: 12px;
+    margin: 12px 0px;
+ }
+  .contact-part .small-box form textarea{
+    font-size: 16px;
+    padding: 12px;
+    resize: none;
+    width:590px ;
+    height: 120px;
+  }
+   .contact-part .small-box form .btn{
+    cursor: pointer;
+    color: #fff;
+    background-color:rgb(255, 0, 106);
+    outline: none;
+    border: none;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+}

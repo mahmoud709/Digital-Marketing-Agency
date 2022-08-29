@@ -1,0 +1,81 @@
+.projects .project-1 {
+    position: relative;
+}
+.projects .project-1 img{
+    width: 330px;
+}
+.projects .project-1 .txt{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+.projects .project-1 .txt h1, .projects .project-1 .txt span{
+    margin: 10px 0px;
+    color: #fff;
+}
+.projects .project-1 .txt h1{
+    font-size: 20px;
+}
+.projects .project-1:hover{
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+}
+.overlay{
+    width: 330px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    background: rgb(0, 0, 0,.4);
+}
+.projects .project-1:hover .overlay{
+    background: rgb(0, 0, 0,.7);
+} 
+.projects .project-1:hover .txt{
+    bottom: 50px;
+}
+
+/* Style about page */
+
+.about-sec{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+    position: relative;
+}
+.about-sec .image-part{
+    width: 400px;
+    margin-top:10%;
+}
+.about-sec .image-part img{
+    width: 100%;
+}
+.about-sec p{
+    color:#777B92;
+}
+.about-sec h1,.about-sec h2{
+    padding: 12px 0px;
+}
+.about-sec .info-part > div{
+    background-color: rgb(249, 249, 249);
+    border-radius: 12px;
+    box-shadow: 0rem .5rem 1.5rem rgba(0,0,0,.1); ;
+    padding:12px;
+    margin: 12px 0px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.about-sec .info-part .title{
+    border-left: 4px solid var(--safety-orange);
+}
+.about-sec .info-part > div:hover{
+    border-left: 4px solid var(--safety-orange);
+}
+.about-sec .line-1 p{
+    padding:12px;
+}
